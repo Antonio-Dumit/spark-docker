@@ -11,3 +11,5 @@ ENV PYSPARK_PYTHON="/usr/bin/python3"
 ENV SPARK_PYSPARK_APPLICATION "SimpleApp.py"
 
 # CMD ["/bin/bash", "/start-submit.sh"]
+# CMD ["/bin/sleep infinity"]
+ENTRYPOINT /bin/bash

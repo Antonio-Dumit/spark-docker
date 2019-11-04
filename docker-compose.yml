@@ -80,6 +80,7 @@ services:
     volumes:
        - /tmp/spark-apps:/opt/spark-apps
        - /tmp/spark-data:/opt/spark-data
+    tty: true
 networks:
   spark-network:
     driver: bridge
